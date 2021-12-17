@@ -100,8 +100,9 @@ link = d.get("https://www.pornhub.com/view_video.php?viewkey=ph60f576d9ef8ca")
 #d.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 urcom = input("comment->: ")
 hm = 1
-for x in range(50):
+for x in range(7000):
     os.system('cls')#!
+    print ("working :D")
     print (hm + 1)
     time.sleep(2)
 
@@ -119,4 +120,5 @@ for x in range(50):
 
     nex = d.find_element_by_xpath("/html/body/div[7]/div[2]/div[5]/div[1]/div[1]/div[1]/div[1]/video-element/div/div[1]/div[1]/div[2]/div")
     nex.click()
-    
+    os.system('cls')#!
+    time.sleep(30)
